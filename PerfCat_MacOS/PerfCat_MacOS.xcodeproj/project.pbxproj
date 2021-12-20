@@ -49,6 +49,7 @@
 		A0803E4B2770A1FD00651488 /* PerfCat_MacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfCat_MacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0803E4F2770A1FD00651488 /* PerfCat_MacOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfCat_MacOSUITests.m; sourceTree = "<group>"; };
 		A0803E512770A1FD00651488 /* PerfCat_MacOSUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfCat_MacOSUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A0803E5E2770A3A600651488 /* PerfCat-MacOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PerfCat-MacOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		A0803E2E2770A1FC00651488 /* PerfCat_MacOS */ = {
 			isa = PBXGroup;
 			children = (
+				A0803E5E2770A3A600651488 /* PerfCat-MacOS-Info.plist */,
 				A0803E2F2770A1FC00651488 /* AppDelegate.h */,
 				A0803E302770A1FC00651488 /* AppDelegate.m */,
 				A0803E322770A1FC00651488 /* ViewController.h */,
@@ -428,6 +430,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PerfCat-MacOS-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -452,6 +455,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PerfCat-MacOS-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
