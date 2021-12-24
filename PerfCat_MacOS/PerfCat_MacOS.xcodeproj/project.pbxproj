@@ -15,9 +15,9 @@
 		A0803E462770A1FD00651488 /* PerfCat_MacOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E452770A1FD00651488 /* PerfCat_MacOSTests.m */; };
 		A0803E502770A1FD00651488 /* PerfCat_MacOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E4F2770A1FD00651488 /* PerfCat_MacOSUITests.m */; };
 		A0803E522770A1FD00651488 /* PerfCat_MacOSUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E512770A1FD00651488 /* PerfCat_MacOSUITestsLaunchTests.m */; };
-		A0803E612770BE5100651488 /* PerfCatDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E602770BE5100651488 /* PerfCatDataReader.m */; };
-		A0803E642770BE8100651488 /* PerfCatIOSDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E632770BE8100651488 /* PerfCatIOSDataReader.m */; };
-		A0803E672770BE9000651488 /* PerfCatAndroidDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E662770BE9000651488 /* PerfCatAndroidDataReader.m */; };
+		A0803E6F2770BF6D00651488 /* PerfCatIOSDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E692770BF6D00651488 /* PerfCatIOSDataReader.m */; };
+		A0803E702770BF6D00651488 /* PerfCatAndroidDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E6B2770BF6D00651488 /* PerfCatAndroidDataReader.m */; };
+		A0803E712770BF6D00651488 /* PerfCatDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A0803E6E2770BF6D00651488 /* PerfCatDataReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +53,12 @@
 		A0803E4F2770A1FD00651488 /* PerfCat_MacOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfCat_MacOSUITests.m; sourceTree = "<group>"; };
 		A0803E512770A1FD00651488 /* PerfCat_MacOSUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfCat_MacOSUITestsLaunchTests.m; sourceTree = "<group>"; };
 		A0803E5E2770A3A600651488 /* PerfCat-MacOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PerfCat-MacOS-Info.plist"; sourceTree = SOURCE_ROOT; };
-		A0803E5F2770BE5100651488 /* PerfCatDataReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerfCatDataReader.h; sourceTree = "<group>"; };
-		A0803E602770BE5100651488 /* PerfCatDataReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfCatDataReader.m; sourceTree = "<group>"; };
-		A0803E622770BE8100651488 /* PerfCatIOSDataReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerfCatIOSDataReader.h; sourceTree = "<group>"; };
-		A0803E632770BE8100651488 /* PerfCatIOSDataReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfCatIOSDataReader.m; sourceTree = "<group>"; };
-		A0803E652770BE9000651488 /* PerfCatAndroidDataReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerfCatAndroidDataReader.h; sourceTree = "<group>"; };
-		A0803E662770BE9000651488 /* PerfCatAndroidDataReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfCatAndroidDataReader.m; sourceTree = "<group>"; };
+		A0803E692770BF6D00651488 /* PerfCatIOSDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfCatIOSDataReader.m; sourceTree = "<group>"; };
+		A0803E6A2770BF6D00651488 /* PerfCatDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfCatDataReader.h; sourceTree = "<group>"; };
+		A0803E6B2770BF6D00651488 /* PerfCatAndroidDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfCatAndroidDataReader.m; sourceTree = "<group>"; };
+		A0803E6C2770BF6D00651488 /* PerfCatIOSDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfCatIOSDataReader.h; sourceTree = "<group>"; };
+		A0803E6D2770BF6D00651488 /* PerfCatAndroidDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfCatAndroidDataReader.h; sourceTree = "<group>"; };
+		A0803E6E2770BF6D00651488 /* PerfCatDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfCatDataReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +114,7 @@
 				A0803E302770A1FC00651488 /* AppDelegate.m */,
 				A0803E322770A1FC00651488 /* ViewController.h */,
 				A0803E332770A1FC00651488 /* ViewController.m */,
-				A0803E5F2770BE5100651488 /* PerfCatDataReader.h */,
-				A0803E602770BE5100651488 /* PerfCatDataReader.m */,
-				A0803E622770BE8100651488 /* PerfCatIOSDataReader.h */,
-				A0803E632770BE8100651488 /* PerfCatIOSDataReader.m */,
-				A0803E652770BE9000651488 /* PerfCatAndroidDataReader.h */,
-				A0803E662770BE9000651488 /* PerfCatAndroidDataReader.m */,
+				A0803E682770BF6D00651488 /* DataReader */,
 				A0803E352770A1FD00651488 /* Assets.xcassets */,
 				A0803E372770A1FD00651488 /* Main.storyboard */,
 				A0803E3A2770A1FD00651488 /* main.m */,
@@ -143,6 +138,19 @@
 				A0803E512770A1FD00651488 /* PerfCat_MacOSUITestsLaunchTests.m */,
 			);
 			path = PerfCat_MacOSUITests;
+			sourceTree = "<group>";
+		};
+		A0803E682770BF6D00651488 /* DataReader */ = {
+			isa = PBXGroup;
+			children = (
+				A0803E6D2770BF6D00651488 /* PerfCatAndroidDataReader.h */,
+				A0803E6B2770BF6D00651488 /* PerfCatAndroidDataReader.m */,
+				A0803E6C2770BF6D00651488 /* PerfCatIOSDataReader.h */,
+				A0803E692770BF6D00651488 /* PerfCatIOSDataReader.m */,
+				A0803E6A2770BF6D00651488 /* PerfCatDataReader.h */,
+				A0803E6E2770BF6D00651488 /* PerfCatDataReader.m */,
+			);
+			path = DataReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0803E612770BE5100651488 /* PerfCatDataReader.m in Sources */,
-				A0803E642770BE8100651488 /* PerfCatIOSDataReader.m in Sources */,
-				A0803E672770BE9000651488 /* PerfCatAndroidDataReader.m in Sources */,
 				A0803E342770A1FC00651488 /* ViewController.m in Sources */,
 				A0803E3B2770A1FD00651488 /* main.m in Sources */,
+				A0803E702770BF6D00651488 /* PerfCatAndroidDataReader.m in Sources */,
+				A0803E6F2770BF6D00651488 /* PerfCatIOSDataReader.m in Sources */,
+				A0803E712770BF6D00651488 /* PerfCatDataReader.m in Sources */,
 				A0803E312770A1FC00651488 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

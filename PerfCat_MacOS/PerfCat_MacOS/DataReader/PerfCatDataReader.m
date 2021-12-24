@@ -9,4 +9,9 @@
 
 @implementation PerfCatDataReader
 
++ (void)test {
+    
+    
+}
+
 @end
