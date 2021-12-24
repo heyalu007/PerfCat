@@ -17,7 +17,7 @@ packaging
 
 tornado
 # simple_tornado>=0.2.2
-retry
+# retry
 simplejson
 
 
